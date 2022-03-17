@@ -636,9 +636,52 @@ body {
     height: 60px;
     margin-top: 60px;
     background: var(--color-bg);
+    background: var(--color-xs);
     border: none;
-    cursor: pointer;
 }
+/* .popap__btn[disabled] {
+    background: var(--color-xs);
+    cursor: default;
+} */
+/* ======= */
+.popap__blago {
+    max-width: 600px;
+    background: var(--color-w);
+    padding: 50px 50px 60px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    transform: translateX(-1000px);
+    -webkit-transform: translateX(-1000px);
+    -moz-transform: translateX(-1000px);
+    -ms-transform: translateX(-1000px);
+    -o-transform: translateX(-1000px);
+}
+.popap__blago-image {
+    width: 120px;
+    margin: 0 auto 40px;
+}
+.popap__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.popap__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 380px;
+    margin-bottom: 60px;
+}
+.popap__blago-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    color: var(--color-w);   
+    background: var(--color-bg);
+}
+
 /* ========= popap /========= */
 
 
@@ -655,7 +698,7 @@ body {
     .about__item-image {
         width: 100%;
     }
-    .about__item-image img{
+    .about__item-image img {
         margin: 0 auto;
     }
     .about__item-text {
